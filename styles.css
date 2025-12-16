@@ -48,7 +48,8 @@ h1 {
     flex-direction: column;
     gap: 8px;
     min-width: 0;
-    width: fit-content;
+    width: 280px;
+    align-items: flex-start;
 }
 
 .input-group label {
