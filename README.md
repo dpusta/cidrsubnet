@@ -1,4 +1,4 @@
-# CIDR / VLSM Calculator
+# CIDR Calculator for Lazy Network Engineers
 
 A web-based CIDR (Classless Inter-Domain Routing) and VLSM (Variable Length Subnet Mask) calculator that replicates the functionality of the popular subnet-calculator.com tool.
 
@@ -18,19 +18,19 @@ A web-based CIDR (Classless Inter-Domain Routing) and VLSM (Variable Length Subn
 
 ## How to Use
 
-1. **Start the server**:
-   ```bash
-   cd subnetcalc
-   python3 -m http.server 8000
-   ```
+**🌐 Live Calculator**: [https://dpusta.github.io/cidrsubnet/](https://dpusta.github.io/cidrsubnet/)
 
-2. **Open in browser**:
-   Navigate to `http://localhost:8000`
-
-3. **Enter calculations**:
+**Enter calculations**:
    - Type an IP address (e.g., `192.168.1.0`)
    - Select mask bits from the dropdown (1-32)
    - View all calculated results instantly
+
+**Local Development**:
+```bash
+cd cidrsubnet
+python3 -m http.server 8000
+```
+Then visit `http://localhost:8000`
 
 ## Technical Details
 
