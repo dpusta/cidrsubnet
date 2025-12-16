@@ -1,0 +1,19 @@
+{
+  "name": "cidr-calculator",
+  "version": "1.0.0",
+  "description": "A web-based CIDR/VLSM calculator",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "cidr",
+    "subnet",
+    "calculator",
+    "networking",
+    "ipv4"
+  ],
+  "author": "",
+  "license": "MIT"
+}
